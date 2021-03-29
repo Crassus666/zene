@@ -124,7 +124,6 @@ for i in range(len(splittelt)):
         egyes_ado.append(splittelt[i])
 for i in range(len(egyes_ado)):
     idok.append(int(egyes_ado[i][1])*60-60+int(egyes_ado[i][2]))
-print(idok)
 for i in range(len(idok)):
     a = int(idok[i])
     a+=60
