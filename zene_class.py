@@ -96,7 +96,6 @@ for dal in Zene.adatok:
         harmas.clear()
         harmas.append(dal.eloado+":"+dal.cim)
     if dal.cim == "Legenda" and dal.eloado == "Omega":
-        print(f'A {dal.csatorna}. adón szólt a szám.')
         if egyes != dal.csatorna :
             print(f'Az egyes csatornán szólt: {egyes[0]}')
         if kettes != dal.csatorna :
